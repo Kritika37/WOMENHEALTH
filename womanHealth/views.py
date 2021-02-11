@@ -58,3 +58,7 @@ def logoutuser(request):
 def dashboard(request):
 	context ={}
 	return render(request,'dashboard.html',context)
+
+def periodt(request):
+	context ={}
+	return render(request,'periodt.html',context)
